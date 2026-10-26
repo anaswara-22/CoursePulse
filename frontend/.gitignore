@@ -27,6 +27,8 @@ dist-ssr
 .env.*
 !.env.example
 
-# Dependencies and builds in nested folders
 **/node_modules/
 **/dist/
+.env
+.env.*
+!.env.example
